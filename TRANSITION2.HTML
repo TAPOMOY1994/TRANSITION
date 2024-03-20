@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRANSITION2</title>
+    <style>
+
+
+.abc
+
+{
+    
+    width: 0;
+    height: 0;
+     border-left: 200px solid transparent;
+     border-right: 200px solid transparent;
+     border-bottom: 200px solid yellow;
+    transition:border-bottom 5s ease-out 2s ;  
+    
+    }
+
+
+.pqr
+
+{
+
+    width: 0;
+    height: 0;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 200px solid red;
+    transition:border-bottom 5s ease-out 2s ;  
+}
+
+
+
+
+div:hover
+
+{
+    border-bottom: 200px solid blue;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+     
+    <div class="abc"></div>
+    <div class="pqr"></div>
+
+
+
+</body>
+</html>
